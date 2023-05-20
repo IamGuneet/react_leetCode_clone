@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+}
+.container{
+    margin-top: 2.5vh;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 1rem;
+    padding: 35px;
+    background-color: #d4d4d4;
+    /* border: 1px solid #ccc; */
+    border-radius: 4px;
+}
+.btn-container{
+    display: flex;
+    gap: 1vh;
+}
+tr{
+    padding: 0.5vh;
+}
+td{
+    width: 220px;
+    border: 1px solid black;
+}
+caption{
+    margin-bottom: 0.8vh;
+}
