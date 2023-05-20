@@ -21,9 +21,13 @@ tr{
     padding: 0.5vh;
 }
 td{
+    text-align: center;
     width: 220px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 caption{
     margin-bottom: 0.8vh;
+}
+.title-text{
+    text-align: left;
 }

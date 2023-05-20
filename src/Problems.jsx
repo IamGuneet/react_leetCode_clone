@@ -44,7 +44,7 @@ export default function Problems() {
        <div>
        <table>
           {TableCaption()}
-          {problem.map((problem,index) => ( < ProblemStatement
+          {problem.map((problem,index) => ( <ProblemStatement
            title={problem.title} 
            acceptance={problem.acceptance} 
            difficulty={problem.difficulty}
@@ -68,7 +68,7 @@ function TableCaption(){
   </h2>
   </caption>
   <tr>
-    <th>Title</th>
+    <th className="title-text" >Title</th>
     <th>Acceptance</th>
     <th>Difficulty</th>
   </tr>
@@ -84,13 +84,13 @@ function ProblemStatement(props){
     const acceptance = props.acceptance
     const difficulty = props.difficulty
     return (<tr>
-      <td>
+      <td className="title-text">
         {title}
       </td>
       <td>
         {acceptance}
       </td>
-      <td>
+      <td >
         {difficulty}
       </td>
     </tr>)

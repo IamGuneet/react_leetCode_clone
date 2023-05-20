@@ -1,4 +1,19 @@
 #h1{
     margin-top: 1vh;
     text-decoration: none;
+    margin-bottom: 2vh;
+}
+
+.blog-container{
+    border: 1px solid;
+    padding: 1.5vh;
+    max-width: 900px;
+    min-height: 100px;
+}
+.blogs-container{
+    display: flex;
+    flex-direction: column;
+    padding: 2vh;
+    
+    align-items: center;
 }

@@ -6,7 +6,7 @@ export default function SignUp() {
        <div className="form-container">
       <input type="text" placeholder="email" className="login-input"/>
       <input type="text" placeholder="password" className="login-input"/> 
-      <button className="login-button">Sign in</button>
+      <button className="login-button">SIGNUP</button>
     </div>
     </div>
   )
